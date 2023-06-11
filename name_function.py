@@ -1,6 +1,8 @@
 # class Name():
-def my_name(firstname, lastname):
+def my_name():
+    firstname = str(input("Enter your fisrt name: "))
+    lastname = str(input("Enter your last name: "))
     fullname = f"{firstname} {lastname}"
-    return "My names are",fullname.title()
-my_name('john', 'doe')
+    print(f"My names are {fullname.title()}")
+my_name()
     
